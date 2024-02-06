@@ -1,5 +1,5 @@
 * {
-    background-image: url(paisaje.jpg);
+    background-image: url(paisaje2.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -13,15 +13,15 @@ h1 {
 .bienvenida {
     text-align:center;
     font-size: 25px;
-    color:whitesmoke;
+    color:goldenrod;
 }
 .salmo {
     text-align: center;
     font-size: 25px;
-    color:whitesmoke;
+    color:goldenrod;
 }
 .texto {
     text-align: center;
     font-size: 25px;
-    color: blue;   
+    color:goldenrod; 
 }
