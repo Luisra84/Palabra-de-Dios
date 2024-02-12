@@ -1,9 +1,10 @@
-* {
-    background-image: url(amanecer2.png);
+.imagen {
+    background-image: url(mar.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    background-attachment: fixed;  
+    background-attachment: fixed;
+   
 }
 h1 {
     text-align: center;
@@ -18,10 +19,10 @@ h1 {
 .salmo {
     text-align: center;
     font-size: 25px;
-    color:goldenrod;
+    color:brown;
 }
 .texto {
     text-align: center;
     font-size: 25px;
-    color:goldenrod; 
+    color:brown;  
 }
