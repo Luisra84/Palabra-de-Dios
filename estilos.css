@@ -1,27 +1,45 @@
 * {
-    background-image: url(obscuro.jpg);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+   background-color: #2b807b;
+   margin: 0;
+   padding: 0;
 }
+body {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    min-height: 100vh;
+}
+    
+
 h1 {
-    text-align: center;
     font-size: 40px;
     color:goldenrod;
 }
 .bienvenida {
-    text-align:center;
+   
     font-size: 25px;
     color:goldenrod;
 }
 .salmo {
-    text-align: center;
     font-size: 25px;
     color:goldenrod;
 }
 .texto {
-    text-align: center;
     font-size: 25px;
     color:goldenrod; 
+}
+.imagen {
+    height: 350px;
+    width: 200px;
+    float: right;
+    margin-right: 30px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    border: 5px solid white;
+}
+.contenedor {
+    justify-content: center;
+    text-align: center;
+    margin: 150px auto;
 }
