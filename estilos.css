@@ -1,13 +1,12 @@
-* {
-   background-color:burlywood;
-   margin: 0;
-   padding: 0;
-}
+
 body {
-    display:flex;
+    background-image: url(amanecer.jpg);
+    margin: 0;
+    padding: 0;
     justify-content: center;
-    align-items:center;
-    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
 }
     
 
@@ -28,20 +27,12 @@ h1 {
     font-size: 25px;
    
 }
-.imagen {
-    height: 350px;
-    width: 200px;
-    float: right;
-    margin-right: 30px;
-    margin-left: 50px;
-    margin-bottom: 50px;
-    border-radius: 20px;
-    border: 5px solid white;
-}
+
 .contenedor {
     justify-content: center;
     text-align: center;
     margin: 150px auto;
     color:blue;
+
 }
 
