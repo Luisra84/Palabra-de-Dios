@@ -1,38 +1,46 @@
 
 body {
-    background-image: url(amanecer.jpg);
+    
     margin: 0;
     padding: 0;
-    justify-content: center;
-    background-repeat: no-repeat;
-    background-position:center;
-    background-size: cover;
+    background-color: #f5f5f5;
 }
     
 
 h1 {
     font-size: 40px;
-    
+    color:blue;
+    text-align: center;
 }
 .bienvenida {
    
     font-size: 25px;
-    
+    color:blue;
+    text-align: center;
 }
 .salmo {
     font-size: 25px;
+    color:blue;
+    text-align: center;
     
 }
 .texto {
     font-size: 25px;
-   
-}
-
-.contenedor {
-    justify-content: center;
-    text-align: center;
-    margin: 150px auto;
     color:blue;
-
+    text-align: center;
 }
 
+.picture-1 {
+    float:left;
+    border-radius: 100px;
+    shape-outside:circle(1rem);
+    margin-left: .2rem;
+    
+}
+.picture-2 {
+    float:right;
+    border-radius: 100px;
+    shape-outside:circle(1rem);
+    margin-right: 1rem;
+    
+}
